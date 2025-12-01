@@ -5,16 +5,16 @@ namespace TodoApi;
 
 public partial class Item
 {
-    // Constructor ריק בשביל Entity Framework
+    
     public Item()
     {
     }
 
-    // Constructor עם שם (אופציונלי)
+    
     public Item(string name)
     {
         NameI = name;
-        IsComplete = false; // ברירת מחדל
+        IsComplete = false; 
     }
 
     public int Id { get; set; }

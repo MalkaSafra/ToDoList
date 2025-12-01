@@ -31,11 +31,10 @@ builder.Services.AddDbContext<ToDoDbContext>(options =>
 
 var app = builder.Build();
 
-//if (app.Environment.IsDevelopment())
-//{
-//    app.UseSwagger();
-//    app.UseSwaggerUI();
-//}
+
+    app.UseSwagger();
+    app.UseSwaggerUI();
+
 
 app.UseCors("AllowAll");
 
@@ -67,7 +66,7 @@ app.MapPut("/api/items/{id}", async (ToDoDbContext db, int id) =>
         return Results.NotFound(); // 404
     }
 
-    // עדכון השדות הנדרשים (דוגמה)
+    
     itemToUpdate.IsComplete = true;
 
     await db.SaveChangesAsync();
