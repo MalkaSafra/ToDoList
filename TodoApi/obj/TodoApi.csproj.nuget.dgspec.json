@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\practicode\\ToDoList\\TodoApi\\TodoApi.csproj": {}
+    "c:\\practicode\\ToDoList\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\practicode\\ToDoList\\TodoApi\\TodoApi.csproj": {
+    "c:\\practicode\\ToDoList\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\practicode\\ToDoList\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "c:\\practicode\\ToDoList\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\practicode\\ToDoList\\TodoApi\\TodoApi.csproj",
+        "projectPath": "c:\\practicode\\ToDoList\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\practicode\\ToDoList\\TodoApi\\obj\\",
+        "outputPath": "c:\\practicode\\ToDoList\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,7 +67,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[6.5.0, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",

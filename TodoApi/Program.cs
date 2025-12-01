@@ -20,7 +20,7 @@ builder.Services.AddCors(options =>
         });
 });
 
-//builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ToDoDbContext>(options =>
 {
